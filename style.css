@@ -1,0 +1,573 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Raleway', sans-serif;
+    background-color: black;
+
+    width: 100%;
+}
+
+a {
+    text-decoration: none;
+}
+
+
+
+
+
+nav {
+    background: rgb(240,240,240);
+    background: linear-gradient(176deg, rgba(240,240,240,1) 0%, rgba(235,235,235,1) 100%);
+    width: 92%;
+    height: 70px;
+    position: fixed;
+    margin-left: 4%;
+    margin-top: -40px;
+    z-index: 100;
+    border-radius: 5px;
+    /* border: solid white; */
+}
+
+nav .logo {
+    width: 40px;
+    margin-top: 10px;
+    margin-left: 52px;
+    background-color: rgb(255, 255, 255);
+    padding: 5px 5px;
+    border-radius: 50px;
+}
+
+nav h3 {
+    margin-left: 115px;
+    margin-top: -40px;
+    color: rgb(30, 48, 80);
+}
+
+i {
+    color: rgb(30, 48, 80);
+    font-size: 24px;
+    margin-left: 93%;
+    position: relative;
+    top: -20px;
+
+}
+
+
+
+
+
+
+
+.bg-utama {
+    margin: 0;
+    width: 100%;
+    height: 600px;
+}
+section {
+    margin: 0;
+    width: 100%;
+    height: 600px;
+    margin-top: 50px;
+    overflow: hidden;
+}
+section video {
+    width: 100%;
+    margin-top: -150px;
+    z-index: -5;
+}
+.bg-utama .teks1 {
+    position: absolute;
+    font-size: 20px;
+    color: white;
+    border: none;
+    width: 800px;
+    font-weight: bold;
+    margin-top: 245px;
+    margin-left: 10%;
+}
+.bg-utama .teks2 {
+    position: absolute;
+    font-size: 60px;
+    color: white;
+    border: none;
+    width: 1000px;
+    font-weight: bold;
+    margin-top: 260px;
+    margin-left: 9.8%;
+}
+
+
+
+
+
+
+
+.kolom-gambar1 {
+    margin-top: 60px;
+    background-color: white;
+    width: 100%;
+    height: 400px;
+    overflow: hidden;
+}
+
+.kolom-gambar1 img {
+    width: 60%;
+    margin-top: -100px;
+    transition: transform 0.4s ease;
+}
+
+.kolom-gambar1 h1 {
+    color: black;
+    position: absolute;
+    margin-top: -340px;
+    margin-left: 74%;
+    transition: transform 0.6s ease-out;
+}
+
+.kolom-gambar1 p {
+    color: rgba(0, 0, 0, 0);
+    margin-top: -360px;
+    margin-left: 65%;
+    margin-right: 5%;
+    text-align: center;
+    transition: color 0.6s ease-out 0.3s;
+}
+
+.kolom-gambar1 h2 a {
+    position: absolute;
+    margin-top: -270px;
+    margin-left: 46%;
+    transition: opacity 0.6s ease-out 0.4s;
+    font-size: 20px;
+    font-size: 14px;
+    color:white;
+    background-color: rgb(0, 0, 223);
+    padding: 10px 15px;
+    border-radius: 2px;
+}
+
+.kolom-gambar1 h2 a:hover {
+    background-color: rgb(77, 77, 255);
+}
+
+
+.kolom-gambar1:hover h2 a {
+    opacity: 1;
+}
+
+.kolom-gambar1:not(:hover) h2 a {
+    opacity: 0;
+    transition: opacity 0.1s ease-out;
+}
+
+.kolom-gambar1:hover i {
+    opacity: 1;
+}
+
+.kolom-gambar1:not(:hover) i {
+    opacity: 0;
+    transition: opacity 0.1s ease-out;
+}
+
+.kolom-gambar1:hover img {
+    transform: translateX(-30px);
+}
+
+.kolom-gambar1:not(:hover) h1 {
+    transform: translateX(0);
+    transition: transform 0.6s ease-out 0.2s;
+}
+
+.kolom-gambar1:hover h1 {
+    transform:translateY(-80px);
+}
+
+.kolom-gambar1:not(:hover) p {
+    color: rgba(0, 0, 0, 0);
+    transition: color 0.2s ease-in 0.0s;
+}
+
+.kolom-gambar1:hover p {
+    color: black;
+}
+
+
+
+
+
+.kolom-gambar2 {
+    margin-top: 10px;
+    background-color: white;
+    width: 100%;
+    height: 400px;
+    overflow: hidden;
+}
+
+.kolom-gambar2 img {
+    width: 60%;
+    margin-top: -100px;
+    margin-left: 50%;
+    transition: transform 0.4s ease;
+}
+
+.kolom-gambar2 h1 {
+    color: black;
+    position: absolute;
+    margin-top: -370px;
+    margin-left: 18%;
+    transition: transform 0.6s ease-out;
+}
+
+.kolom-gambar2 p {
+    color: rgba(0, 0, 0, 0);
+    margin-top: -390px;
+    margin-left: 5%;
+    margin-right: 57%;
+    text-align: center;
+    transition: color 0.6s ease-out 0.3s;
+}
+
+.kolom-gambar2 h2 a {
+    position: absolute;
+    margin-top: -300px;
+    margin-left: 53%;
+    transition: opacity 0.6s ease-out 0.4s;
+    font-size: 20px;
+    font-size: 14px;
+    color: inherit;
+    color: white;
+    opacity: 0;
+    background-color: rgb(0, 0, 223);
+    padding: 10px 15px;
+    border-radius: 2px;
+}
+
+.kolom-gambar2 h2 a:hover {
+    background-color: rgb(77, 77, 255);
+}
+
+
+.kolom-gambar2:hover h2 a {
+    opacity: 1;
+}
+
+.kolom-gambar2:not(:hover) h2 a {
+    opacity: 0;
+    transition: opacity 0.1s ease-out;
+}
+
+.kolom-gambar2:hover i {
+    opacity: 1;
+}
+
+.kolom-gambar2:not(:hover) i {
+    opacity: 0;
+    transition: opacity 0.1s ease-out;
+}
+
+.kolom-gambar2:hover img {
+    transform: translateX(-30px);
+}
+
+.kolom-gambar2:not(:hover) h1 {
+    transform: translateX(0);
+    transition: transform 0.6s ease-out 0.2s;
+}
+
+.kolom-gambar2:hover h1 {
+    transform:translateY(-80px);
+}
+
+.kolom-gambar2:not(:hover) p {
+    color: rgba(0, 0, 0, 0);
+    transition: color 0.2s ease-in 0.0s;
+}
+
+.kolom-gambar2:hover p {
+    color: black;
+}
+
+
+
+
+
+
+.kolom-gambar3 {
+    margin-top: 10px;
+    background-color: white;
+    width: 100%;
+    height: 400px;
+    overflow: hidden;
+}
+
+.kolom-gambar3 img {
+    width: 60%;
+    margin-top: -100px;
+    transition: transform 0.4s ease;
+}
+
+.kolom-gambar3 h1 {
+    color: black;
+    position: absolute;
+    margin-top: -360px;
+    margin-left: 74%;
+    transition: transform 0.6s ease-out;
+}
+
+.kolom-gambar3 p {
+    color: rgba(0, 0, 0, 0);
+    margin-top: -380px;
+    margin-left: 65%;
+    margin-right: 5%;
+    text-align: center;
+    transition: color 0.6s ease-out 0.3s;
+}
+
+.kolom-gambar3 h2 a {
+    position: absolute;
+    margin-top: -310px;
+    margin-left: 46%;
+    transition: opacity 0.6s ease-out 0.4s;
+    font-size: 20px;
+    font-size: 14px;
+    color: inherit;
+    color: white;
+    opacity: 0;
+    background-color: rgb(0, 0, 223);
+    padding: 10px 15px;
+    border-radius: 2px;
+}
+
+.kolom-gambar3 h2 a:hover {
+    background-color: rgb(77, 77, 255);
+}
+
+
+.kolom-gambar3:hover h2 a {
+    opacity: 1;
+}
+
+.kolom-gambar3:not(:hover) h2 a {
+    opacity: 0;
+    transition: opacity 0.1s ease-out;
+}
+
+.kolom-gambar3:hover i {
+    opacity: 1;
+}
+
+.kolom-gambar3:not(:hover) i {
+    opacity: 0;
+    transition: opacity 0.1s ease-out;
+}
+
+.kolom-gambar3:hover img {
+    transform: translateX(-30px);
+}
+
+.kolom-gambar3:not(:hover) h1 {
+    transform: translateX(0);
+    transition: transform 0.6s ease-out 0.2s;
+}
+
+.kolom-gambar3:hover h1 {
+    transform:translateY(-80px);
+}
+
+.kolom-gambar3:not(:hover) p {
+    color: rgba(0, 0, 0, 0);
+    transition: color 0.2s ease-in 0.0s;
+}
+
+.kolom-gambar3:hover p {
+    color: black;
+}
+
+
+
+
+
+
+
+
+.kolom-gambar4 {
+    margin-top: 10px;
+    background-color: white;
+    width: 100%;
+    height: 400px;
+    overflow: hidden;
+}
+
+.kolom-gambar4 img {
+    width: 60%;
+    margin-top: -100px;
+    margin-left: 50%;
+    transition: transform 0.4s ease;
+}
+
+.kolom-gambar4 h1 {
+    color: black;
+    position: absolute;
+    margin-top: -370px;
+    margin-left: 18%;
+    transition: transform 0.6s ease-out;
+}
+
+.kolom-gambar4 p {
+    color: rgba(0, 0, 0, 0);
+    margin-top: -390px;
+    margin-left: 5%;
+    margin-right: 57%;
+    text-align: center;
+    transition: color 0.6s ease-out 0.3s;
+}
+
+.kolom-gambar4 h2 a {
+    position: absolute;
+    margin-top: -320px;
+    margin-left: 53%;
+    transition: opacity 0.6s ease-out 0.4s;
+    font-size: 20px;
+    font-size: 14px;
+    color: inherit;
+    color: white;
+    opacity: 0;
+    background-color: rgb(0, 0, 223);
+    padding: 10px 15px;
+    border-radius: 2px;
+}
+
+.kolom-gambar4 h2 a:hover {
+    background-color: rgb(77, 77, 255);
+}
+
+
+.kolom-gambar4:hover h2 a {
+    opacity: 1;
+}
+
+.kolom-gambar4:not(:hover) h2 a {
+    opacity: 0;
+    transition: opacity 0.1s ease-out;
+}
+
+.kolom-gambar4:hover i {
+    opacity: 1;
+}
+
+.kolom-gambar4:not(:hover) i {
+    opacity: 0;
+    transition: opacity 0.1s ease-out;
+}
+
+.kolom-gambar4:hover img {
+    transform: translateX(-30px);
+}
+
+.kolom-gambar4:not(:hover) h1 {
+    transform: translateX(0);
+    transition: transform 0.6s ease-out 0.2s;
+}
+
+.kolom-gambar4:hover h1 {
+    transform:translateY(-80px);
+}
+
+.kolom-gambar4:not(:hover) p {
+    color: rgba(0, 0, 0, 0);
+    transition: color 0.2s ease-in 0.0s;
+}
+
+.kolom-gambar4:hover p {
+    color: black;
+}
+
+
+
+
+
+
+
+
+
+
+.lebih-lanjut {
+    background-color: white;
+    width: 100%;
+    height: 600px;
+    margin-top: 30px;
+}
+
+.lebih-lanjut h1 {
+    padding-top: 100px;
+    font-size: 40px;
+    padding-left: 3%;
+    font-weight: bolder;
+}
+
+.lebih-lanjut p {
+    width: 700px;
+    padding-left: 3%;
+    padding-top: 30px;
+}
+
+.lebih-lanjut a {
+    margin-left: 65%;
+    padding: 20px 40px;
+    position: relative;
+    top: -200px;
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+    font-weight: bold;
+    font-size: 18px;
+    border-radius: 50px;
+    background: rgba(99,99,99,1);
+
+}
+
+.lebih-lanjut a:hover {
+    background-color: black;
+}
+
+
+
+
+
+
+
+.penutup {
+    background-color: rgb(0, 0, 0);
+    width: 100%;
+    height: 250px;
+}
+
+.penutup p {
+    color: white;
+    font-size: 24px;
+    font-weight: lighter;
+    margin-left: 5%;
+    padding-top: 100px;
+}
+
+.penutup h1 {
+    color: white;
+    margin-left: 5%;
+    padding-top: 00px;
+}
+
+.penutup h2 a {
+    color: white;
+    margin-left: 80%;
+    font-size: 20px;
+    position: relative;
+    top: -30px;
+}
+
+.penutup h2 a:hover {
+    color: gray;
+}
